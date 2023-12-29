@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ .head a{
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    padding: 10px;
+    margin-right: 8px;
+    color: black;
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+
+
+.head a:hover{
+    color: #E1B7A8;
+}
+
+.head{
+    height: 86px;
+    width: 100%;
+    background-color: white;
+    border-top: 10px solid #F3ECE9;
+    border-bottom: 4px solid #f3ece9;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.head img{
+    margin-left: 200px;
+}
+
+.navg{
+    display: flex;
+    align-items: center;
+    margin-left:  220px;
+}
+
+.navg a{
+    color: black;
+}
+
+.navg a:hover{
+    color: #E1B7A8;
+}
+
+.image{
+    height: 471px;
+    display:flex;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.end{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.icons{
+    fill: white;
+    height: 20px;
+    width: 20px;
+}
+
+#fb:hover{
+    fill: #1877f2;
+    transition: ease-in 0.03s;
+}
+
+#you:hover{
+    fill: #ff0000;
+    transition: ease-in 0.03s;
+}
+
+#insta:hover{
+    fill: #c32aa3;
+    transition: ease-in 0.03s;
+}
+
+#pin:hover{
+    fill: #bd081c;
+    transition: ease-in 0.03s;
+}
+
